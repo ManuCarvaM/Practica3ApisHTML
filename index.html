@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Reproductor de Video</title>
+        <link rel="stylesheet" href="./reproductor.css">
+    </head>
+    <body>
+        <h1>Reproductor de vídeo</h1>
+        <p>Instrucciones de uso: 
+            <ol>
+                <li>
+                    Seleccionar el video
+                </li>
+                <li>
+                    Presionar aceptar
+                </li>
+                <li>
+                    Seleccionar botón Play
+                </li>
+            </ol>
+        </p>
+        <div id="apifile">
+        <input type="file" id="file" />
+        <br>
+        <br>
+    </div>
+        <div class="output">
+        <video width="500" height="400" id="video1" poster="/videoposter.jpg" > 
+        </video>
+    </div>
+        <br>
+        <br>
+        <div id="botonera">
+            <button id="play">Play</button>
+            <button id="pause">Pausa</button>
+            <button id="stop">Stop</button>
+            <button id="mas">Volumen +</button>
+            <button id="menos"> Volumen -</button>
+        </div>
+    <script src="./index.js"></script>
+    </body>
+</html>

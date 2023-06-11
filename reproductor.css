@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+#apifile{
+   border-style: dotted;
+   padding: auto;
+   border-color: lavender;
+   height: 25px;
+   width: 600px;
+
+}
+
+button{
+    color: rgb(251, 51, 184);
+    height: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    color: lightblue;
+    cursor: pointer;
+
+}
+
+#output{
+    margin: 50px 50px 10px 10px;
+}
+
+ol{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
